@@ -8,21 +8,21 @@
  */
  int main(int arrgc, char **argv) {
 
-    double us dollar, british pound;
+    double usDollar, britishPound, JPY;
 
   //TODO; implement this
   //1. Prompt the user for input in US Dollar
   printf("Please enter US Dollar amount: ");
 
   //2.Read the US Dollar amount from the standard input
-  scanf("%lf", &us dollar);
-
+  scanf("%lf", &usDollar);
+usDollar = 0.9 * usDollar
   //3. Compute the amount in British Pounds
-  1 us dollar = 0.6 british pound;
+  britishPounds = 0.6 * (usDollar / 2.0);
   //4. Compute the exchange fee in Japanese JPY
-  1 us dollar = 76.8 jpy;
+  JPY = usDollar * (76.8 / 2.0);
   //5. Print the result to the user
-  printf("%f US Dollar is %f British Pound\n", us dollar, british pound);
+  printf("%f usDollar is %f britishPound is %f JPY \n", usDollar, britishPound, JPY);
 
   return 0;
   }
